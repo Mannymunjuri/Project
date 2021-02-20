@@ -1,4 +1,3 @@
-price = 1000
-vat= float(0.16)
+price = int(1000)
 vatinc = (price)*float(0.16)+price
-print(vatinc)
+print(int(vatinc))
