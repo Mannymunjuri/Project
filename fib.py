@@ -1,14 +1,15 @@
-def fibonacci(n):
-    x=0
-    y=1
-    if n==1:
-        print(x)
+x=input("Enter Amount")
+def fibonnaci (x):
+    a=0
+    b=1
+    if x==1:
+        print(a)
     else:
-        print(x)
-        print(y)
-        for f in range(2,n):
-            k=x+y
-            x=y
-            y=k
-            print(k)
-print(fibonacci(15))
+        print(a)
+        print(b)
+        for y in range(2,int(x)):
+            z=a+b
+            a=b
+            b=z
+            print(z)
+print(fibonnaci(int(x))) 
